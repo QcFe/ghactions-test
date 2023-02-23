@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI-test-before-change
+name: CI-test-malicious-change
 
 # Controls when the workflow will run
 on:
@@ -29,3 +29,4 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+          echo I'm going to do stuff you don't know :)
